@@ -4,3 +4,113 @@
     box-sizing: border-box;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Phone */
+@media screen and (max-width:600px) {
+    body {
+        background-color: hsl(210, 46%, 95%);
+    }
+    
+    /* Daniel Clifford */
+    .first-testi {
+        background-image: url('bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-color: hsl(263, 55%, 52%);
+    }
+    .first-testi .name {
+        color: white;
+    }
+    .first-testi .type {
+        color: white;
+        opacity: 0.5;
+    }
+    .first-testi .testimonial {
+        color: white;
+    }
+    .first-testi .story {
+        color: white;
+        opacity: 0.7;
+    }
+
+    /* Jonathan Walters */
+    .second-testi {
+        background-color: hsl(217, 19%, 35%);
+    }
+    .second-testi .name {
+        color: white;
+    }
+    .second-testi .type {
+        color: white;
+        opacity: 0.5;
+    }
+    .second-testi .testimonial {
+        color: white;
+    }
+    .second-testi .story {
+        color: white;
+        opacity: 0.7;
+    }
+
+    /* Jeanette Harmon */
+    .third-testi {
+        background-color: white;
+    }
+    .third-testi .name {
+        color: hsl(219, 29%, 14%);
+    }
+    .third-testi .type {
+        color: hsl(219, 29%, 14%);
+        opacity: 0.5;
+    }
+    .third-testi .testimonial {
+        color: hsl(219, 29%, 14%);
+    }
+    .third-testi .story {
+        color: hsl(219, 29%, 14%);
+        opacity: 0.7;
+    }
+
+    /* Patrick Abrams */
+    .fourth-testi {
+        background-color: hsl(219, 29%, 14%);
+    }
+    .fourth-testi .name {
+        color: white;
+    }
+    .fourth-testi .type {
+        color: white;
+        opacity: 0.5;
+    }
+    .fourth-testi .testimonial {
+        color: white;
+    }
+    .fourth-testi .story {
+        color: white;
+        opacity: 0.7;
+    }
+
+    /* Kira Whittle */
+    .fifth-testi {
+        background-color: white;
+    }
+    .fifth-testi .name {
+        color: hsl(219, 29%, 14%);
+    }
+    .fifth-testi .type {
+        color: hsl(219, 29%, 14%);
+        opacity: 0.5;
+    }
+    .fifth-testi .testimonial {
+        color: hsl(219, 29%, 14%);
+    }
+    .fifth-testi .story {
+        color: hsl(219, 29%, 14%);
+        opacity: 0.7;
+    }
+}
