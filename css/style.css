@@ -16,6 +16,11 @@ html, body {
         background-color: hsl(210, 46%, 95%);
     }
 
+    .title {
+        text-align: center;
+        margin-top: 20px;
+    }
+
     .container {
         display: grid;
         grid-template-rows: auto;
@@ -23,12 +28,23 @@ html, body {
 
     .box {
         padding: 40px;
-        display: grid;
-        justify-self: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
     }
 
     .profile-pict {
         border-radius: 50px;
+        width: 40px;
+        height: 40px;
+    }
+    .profile {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1px;
+        margin-left: 10px;
     }
 
     .testimonial, .story {
@@ -166,5 +182,11 @@ html, body {
     .fifth-testi .story {
         color: hsl(219, 29%, 14%);
         opacity: 0.7;
+    }
+
+    /* Footer */
+    .watermark {
+        text-align: center;
+        font-size: 13px;
     }
 }
