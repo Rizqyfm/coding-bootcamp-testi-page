@@ -6,19 +6,142 @@
 }
 
 html, body {
-    height: 100%;
     width: 100%;
 }
 
+/* Desktop */
+
+/* General */
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* Main (testimonial) */
+/* Daniel Clifford */
+.first-testi {
+    background-image: url('bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: hsl(263, 55%, 52%);
+    border: 1px solid hsl(263, 55%, 52%);
+    border-radius: 15px;
+}
+
+.first-testi .name {
+    color: white;
+}
+.first-testi .type {
+    color: white;
+    opacity: 0.5;
+}
+.first-testi .testimonial {
+    color: white;
+}
+.first-testi .story {
+    color: white;
+    opacity: 0.7;
+}
+
+/* Jonathan Walters */
+.second-testi {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 15px;
+}
+
+.second-testi .name {
+    color: white;
+}
+.second-testi .type {
+    color: white;
+    opacity: 0.5;
+}
+.second-testi .testimonial {
+    color: white;
+}
+.second-testi .story {
+    color: white;
+    opacity: 0.7;
+}
+
+/* Jeanette Harmon */
+.third-testi {
+    background-color: white;
+    border-radius: 15px;
+}
+.third-testi .name {
+    color: hsl(219, 29%, 14%);
+}
+.third-testi .type {
+    color: hsl(219, 29%, 14%);
+    opacity: 0.5;
+}
+.third-testi .testimonial {
+    color: hsl(219, 29%, 14%);
+}
+.third-testi .story {
+    color: hsl(219, 29%, 14%);
+    opacity: 0.7;
+}
+
+/* Patrick Abrams */
+.fourth-testi {
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 15px;
+}
+.fourth-testi .name {
+    color: white;
+}
+.fourth-testi .type {
+    color: white;
+    opacity: 0.5;
+}
+.fourth-testi .testimonial {
+    color: white;
+}
+.fourth-testi .story {
+    color: white;
+    opacity: 0.7;
+}
+
+/* Kira Whittle */
+.fifth-testi {
+    background-color: white;
+    border-radius: 15px;
+}
+.fifth-testi .name {
+    color: hsl(219, 29%, 14%);
+}
+.fifth-testi .type {
+    color: hsl(219, 29%, 14%);
+    opacity: 0.5;
+}
+.fifth-testi .testimonial {
+    color: hsl(219, 29%, 14%);
+}
+.fifth-testi .story {
+    color: hsl(219, 29%, 14%);
+    opacity: 0.7;
+}
+
+/* Footer */
+.watermark {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
 /* Phone */
 @media screen and (max-width:600px) {
-    body {
-        background-color: hsl(210, 46%, 95%);
-    }
-
     .title {
-        text-align: center;
-        margin-top: 20px;
+        margin-bottom: auto;
     }
 
     .container {
@@ -61,132 +184,49 @@ html, body {
     
     /* Daniel Clifford */
     .first-testi {
-        background-image: url('bg-pattern-quotation.svg');
-        background-repeat: no-repeat;
-        background-position-x: right;
-        background-color: hsl(263, 55%, 52%);
-        border: 1px solid hsl(263, 55%, 52%);
-        border-radius: 15px;
         margin-top: 50px;
         margin-bottom: 20px;
         margin-right: 20px;
         margin-left: 20px;
     }
-    
-    .first-testi .name {
-        color: white;
-    }
-    .first-testi .type {
-        color: white;
-        opacity: 0.5;
-    }
-    .first-testi .testimonial {
-        color: white;
-    }
-    .first-testi .story {
-        color: white;
-        opacity: 0.7;
-    }
+
 
     /* Jonathan Walters */
     .second-testi {
-        background-color: hsl(217, 19%, 35%);
-        border-radius: 15px;
         margin-top: 30px;
         margin-bottom: 20px;
         margin-right: 20px;
         margin-left: 20px;
-    }
-    .second-testi .name {
-        color: white;
-    }
-    .second-testi .type {
-        color: white;
-        opacity: 0.5;
-    }
-    .second-testi .testimonial {
-        color: white;
-    }
-    .second-testi .story {
-        color: white;
-        opacity: 0.7;
     }
 
     /* Jeanette Harmon */
     .third-testi {
-        background-color: white;
-        border-radius: 15px;
         margin-top: 30px;
         margin-bottom: 20px;
         margin-right: 20px;
         margin-left: 20px;
     }
-    .third-testi .name {
-        color: hsl(219, 29%, 14%);
-    }
-    .third-testi .type {
-        color: hsl(219, 29%, 14%);
-        opacity: 0.5;
-    }
-    .third-testi .testimonial {
-        color: hsl(219, 29%, 14%);
-    }
-    .third-testi .story {
-        color: hsl(219, 29%, 14%);
-        opacity: 0.7;
-    }
+    
 
     /* Patrick Abrams */
     .fourth-testi {
-        background-color: hsl(219, 29%, 14%);
-        border-radius: 15px;
         margin-top: 30px;
         margin-bottom: 20px;
         margin-right: 20px;
         margin-left: 20px;
     }
-    .fourth-testi .name {
-        color: white;
-    }
-    .fourth-testi .type {
-        color: white;
-        opacity: 0.5;
-    }
-    .fourth-testi .testimonial {
-        color: white;
-    }
-    .fourth-testi .story {
-        color: white;
-        opacity: 0.7;
-    }
+    
 
     /* Kira Whittle */
     .fifth-testi {
-        background-color: white;
-        border-radius: 15px;
         margin-top: 30px;
         margin-bottom: 20px;
         margin-right: 20px;
         margin-left: 20px;
-    }
-    .fifth-testi .name {
-        color: hsl(219, 29%, 14%);
-    }
-    .fifth-testi .type {
-        color: hsl(219, 29%, 14%);
-        opacity: 0.5;
-    }
-    .fifth-testi .testimonial {
-        color: hsl(219, 29%, 14%);
-    }
-    .fifth-testi .story {
-        color: hsl(219, 29%, 14%);
-        opacity: 0.7;
     }
 
     /* Footer */
     .watermark {
-        text-align: center;
-        font-size: 13px;
+        margin-top: 10px;
     }
 }
