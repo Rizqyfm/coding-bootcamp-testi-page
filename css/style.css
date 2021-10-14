@@ -56,7 +56,6 @@ body {
 }
 
 /* Main */
-
 /* Daniel Clifford */
 .first-testi {
     background-image: url('bg-pattern-quotation.svg');
@@ -65,10 +64,7 @@ body {
     background-color: hsl(263, 55%, 52%);
     border: 1px solid hsl(263, 55%, 52%);
     border-radius: 15px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 50px 20px 20px 20px;
 }
 .first-testi .name {
     color: white;
@@ -90,10 +86,7 @@ body {
 .second-testi {
     background-color: hsl(217, 19%, 35%);
     border-radius: 15px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 50px 20px 20px 20px;
 }
 .second-testi .name {
     color: white;
@@ -114,10 +107,7 @@ body {
 .third-testi {
     background-color: white;
     border-radius: 15px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 50px 20px 20px 20px;
 }
 .third-testi .name {
     color: hsl(219, 29%, 14%);
@@ -138,10 +128,7 @@ body {
 .fourth-testi {
     background-color: hsl(219, 29%, 14%);
     border-radius: 15px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 50px 20px 20px 20px;
 }
 
 .fourth-testi .name {
@@ -163,10 +150,7 @@ body {
 .fifth-testi {
     background-color: white;
     border-radius: 15px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 50px 20px 20px 20px;
 }
 
 .fifth-testi .name {
@@ -196,8 +180,6 @@ body {
 /* Desktop */
 @media screen and (min-width:768px) {
 /* General */
-
-
 .container {
     display: grid;
     grid-template-areas:
@@ -207,7 +189,7 @@ body {
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    margin: 40px 10px;
+    margin: 40px 300px;
 }
 
 .testimonial {
@@ -220,27 +202,32 @@ body {
 /* Daniel Clifford */
 .first-testi {
     grid-area: daniel;
+    margin: 0;
 }
 
 /* Jonathan Walters */
 .second-testi {
     grid-area: jonathan;
+    margin: 0;
 }
 
 
 /* Jeanette Harmon */
 .third-testi {
     grid-area: jeanette;
+    margin: 0;
 }
 
 /* Patrick Abrams */
 .fourth-testi {
     grid-area: patrick;
+    margin: 0;
 }
 
 /* Kira Whittle */
 .fifth-testi {
     grid-area: kira;
+    margin: 0;
 }
 
 /* Footer */
